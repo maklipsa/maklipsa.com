@@ -1,0 +1,79 @@
+﻿body {
+    background-color: black;
+    color: white;
+}
+
+
+a {
+    color: white;
+}
+
+.project_content {
+    color: white;
+}
+
+.thumb_title {
+    background-color: black;
+    color: white;
+}
+
+.project_thumb .cardimgcrop .main_img {
+    border: 0px solid black;
+}
+
+.pageTitle {
+    color: white;
+}
+
+.pageTitle a {
+    color: white;
+}
+
+.pageTitle a:hover { 
+    color: white 
+}
+
+.main_thumb_title {
+    background-color: black;
+    color: white;
+}
+
+.galleria-container {
+    background: black;
+}
+
+.galleria-thumbnails .galleria-image {
+    background: black;
+    border: 1px solid white;
+}
+.galleria-loader {
+    background: black;
+}
+
+.galleria-counter {
+    color: white;
+}
+
+
+.galleria-info-text {
+    background-color: black;
+}
+.galleria-info-title {
+    color: white;
+}
+
+.galleria-info-description {
+    color: black;
+}
+
+.galleria-info-link {
+    background-color: black;
+}
+
+.galleria-info-text {
+    background-color: black;
+}
+
+.galleria-image-nav-left, .galleria-image-nav-right {
+    background-color: black
+}
