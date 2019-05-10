@@ -1,0 +1,24 @@
+---
+layout: main
+---
+
+<div style="display: block;" id="maincontainer" class="bodycopy">
+    <div class="entry">
+        <div id="slideshow" class="gallery" style="height: 775px">
+            {{ content }}
+        </div>
+    </div>
+</div>
+{% include mainGallery.html %}
+<script src="/Scripts/jquerry.ui.slideshow.js" type="text/javascript"></script>
+<script src="/Scripts/jquery.timers-1.2.js" type="text/javascript"></script>
+<script src="/Scripts/galleria.history.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+    $(function () {
+        Galleria.loadTheme('/Content/Galleria/custom/galleria.custom.js');
+        // run galleria and add some options
+        $('#slideshow').galleria({
+            image_crop: false
+        });
+    });
+</script>
