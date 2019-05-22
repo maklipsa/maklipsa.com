@@ -21,7 +21,6 @@ a {
     clear: both;
     margin: 0 auto;
     position: relative;
-    width: 900px;
     z-index: 10;
 }
 
@@ -196,7 +195,7 @@ img {
 
 
 .galleria-container {
-    height: 775px;
+    height: 900px;
     overflow: hidden;
     position: relative;
     width: 100%;
