@@ -92,6 +92,13 @@
         <noscript>
             [Turn on JavaScript to see the email address]</noscript>.
     </div>
+    <script>
+        function resize(){
+            document.getElementById("content_container").style.marginLeft = (document.body.parentElement.offsetWidth % 300)/2+"px"
+            document.getElementById("content_container").style.marginRight = (document.body.parentElement.offsetWidth % 300)/2+"px"
+        }
+        resize()
+    </script>
 
     <script type="text/javascript" language="javascript">
         black = "/Content/black.css";
@@ -128,8 +135,10 @@
 
         function initate() {
             document.getElementById("schemeChange").onclick = swapStyleSheet;
+            resize();
         }
 
+        window.onresize = resize;
         window.onload = initate;
     </script>
 

@@ -199,6 +199,7 @@ img {
     overflow: hidden;
     position: relative;
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .galleria-container img {

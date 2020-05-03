@@ -31,11 +31,11 @@ Galleria.addTheme({
             $(this).not('.active').children().stop().fadeTo(400, .4);
         }).not('.active').children().css('opacity',.4);
         
-        this.$('container').hover(this.proxy(function() {
-            this.$('image-nav-left,image-nav-right,counter').fadeIn(200);
-        }), this.proxy(function() {
-            this.$('image-nav-left,image-nav-right,counter').fadeOut(500);
-        }));
+        // this.$('container').hover(this.proxy(function() {
+        //     this.$('image-nav-left,image-nav-right,counter').fadeIn(200);
+        // }), this.proxy(function() {
+        //     this.$('image-nav-left,image-nav-right,counter').fadeOut(500);
+        // }));
         /*this.setStyle(this.$('galleria-container'), {
             height: '600px;'
         });
