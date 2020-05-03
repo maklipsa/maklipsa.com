@@ -17,4 +17,9 @@ url:
     </div>
 
     {% include mainGallery.html %}
-
+        function resize(){
+            document.getElementById("content_container").style.left = (document.body.offsetWidth % 300)/2+"px"
+        }
+        
+            resize();
+        window.onresize = resize;
